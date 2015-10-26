@@ -45,6 +45,10 @@ I use Maxmind's Free World Cities Database. You can get it here: https://www.max
 
 Please note that I only count in the cities whose population is over 500, otherwise the results are too noisy for me.
 
+# Contribution
+
+Just send me a PR. It's nice and easy :)
+
 # License
 
 MIT
