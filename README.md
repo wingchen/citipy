@@ -6,9 +6,7 @@ I hate going through web endpoints to look for the city names; we are often rate
 
 We have only this many cities in the world, why isn't there any data set that provides the geo coordinates for all the
  
-available cities, and we can use certain data structure/algorithm like kdtree to look up the nearest city given a set of
-
-geo coordinates?
+available cities, and we can use certain data structure/algorithm like kdtree to look up the nearest city given a set of geo coordinates?
 
 Luckily, both Maxmind(www.maxmind.com/en/free-world-cities-database) and GeoNames(download.geonames.org/export/dump)
  
