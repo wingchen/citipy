@@ -2,9 +2,8 @@ from setuptools import setup, find_packages
 
 setup(
     name='citipy',
-    version='0.0.1',
+    version='0.0.4',
     packages=find_packages(),
-    scripts=['citipy.py'],
 
     install_requires=['kdtree>=0.12'],
 
