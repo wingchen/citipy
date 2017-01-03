@@ -19,11 +19,11 @@ _world_cities_csv_path = os.path.join(_current_dir, 'worldcities.csv')
 _world_cities_kdtree = kdtree.create(dimensions=2)
 WORLD_CITIES_DICT = {}
 
-with open(_world_cities_csv_path, 'rb') as csv_file:
+with open(_world_cities_csv_path, 'r') as csv_file:
     cities = csv.reader(csv_file)
 
-    # discrad the headers
-    cities.next()
+    # discard the headers
+    cities.__next__()
 
     # populate geo points into kdtree
     for city in cities:
