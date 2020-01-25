@@ -8,9 +8,11 @@ class City:
     City wraps up the info about a city, including its name, coordinates,
     and belonging country.
     '''
-    def __init__(self, city_name, country_code):
+    def __init__(self, city_name, country_code, lat, lng):
         self.city_name = city_name
         self.country_code = country_code
+        self.lat = lat
+        self.lng = lng
 
 
 # load the city data up
@@ -29,7 +31,7 @@ with open(_world_cities_csv_path, 'r') as csv_file:
     for city in cities:
         city_coordinate_key = (float(city[2]), float(city[3]))
         _world_cities_kdtree.add(city_coordinate_key)
-        c = City(city[1], city[0])
+        c = City(city[1], city[0], city[2], city[3])
         WORLD_CITIES_DICT[city_coordinate_key] = c
 
 
