@@ -41,7 +41,7 @@ pip install citipy
 
 I use Maxmind's Free World Cities Database. You can get it here: https://www.maxmind.com/en/free-world-cities-database .
 
-Please note that I only count in the cities whose population is over 500, otherwise the results are too noisy for me.
+Please note that I only count in the cities whose population is over 5000, otherwise the results are too noisy for me.
 
 # Contribution
 
