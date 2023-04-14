@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='citipy',
-    version='0.0.5',
+    version='0.0.6',
     packages=find_packages(),
 
     install_requires=['kdtree>=0.12'],
@@ -12,7 +12,7 @@ setup(
     },
 
     author='Winston Chen',
-    author_email='darwing.chen@gmail.com',
+    author_email='wingchen@sailoi.com',
     description='Look for nearest city with geo coordinates.',
     license='MIT',
     keywords=['world cities', 'cities', 'city'],
